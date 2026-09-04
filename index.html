@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sostenibilità Amadori - Progetto Negri</title> 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', Arial, sans-serif; 
+            line-height: 1.5; 
+            color: #333;
+            background-color: #f4f7f4; 
+        }
+
+        header {
+            background-color: #274e13; 
+            color: #fff;
+            padding: 100px 20px; 
+            text-align: center;
+            border-bottom: 8px solid #8eb021; 
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            font-family: sans-serif;
+        }
+
+        .container {
+            width: 85%; 
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main-content { 
+            padding: 40px 0; 
+        } 
+
+        h2 {
+            color: #274e13;
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+            text-align: center;
+        }
+
+        .pillars {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between; 
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card-sost {
+            background: #ffffff;
+            padding: 25px;
+            flex: 1;
+            min-width: 300px;
+            border: 1px solid #ddd; 
+            border-top: 6px solid #8eb021;
+            transition: 0.4s;
+            text-align: left;
+        }
+
+        .card-sost:hover {
+            background-color: #fdfdfd;
+            transform: scale(1.02);
+        }
+
+        .btn-link {
+            display: inline-block;
+            background: #8eb021;
+            color: #fff;
+            padding: 15px 35px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+            border-radius: 4px; 
+        }
+
+        .btn-link:hover {
+            background: #1e3a0e;
+        }
+
+        .logo-amadori-css {
+            display: inline-block;
+            background-color: #FFFFFF; 
+            color: #274e13;
+            text-decoration: none;
+            font-family: 'Arial', sans-serif; 
+            font-weight: bold;
+            font-style: italic;
+            font-size: 28px;
+            letter-spacing: -1px;
+            padding: 15px 40px;
+            border-radius: 100px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            transition: transform 0.2s ease;
+        }
+
+        .logo-amadori-css:hover {
+            transform: scale(1.05);
+            color: #1e3a0e;
+        }
+
+        footer {
+            background: #eee;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="https://www.amadori.it/azienda" class="logo-amadori-css" aria-label="Amadori Logo">
+                Amadori
+            </a>
+            <h1>Solide radici e sguardo rivolto al futuro</h1>
+            <p>Dal 1969, leader nell'agroalimentare italiano e specialisti nel settore avicolo.</p>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        
+        <section id="impegno" style="max-width: 900px; margin: auto; text-align: center;">
+            <h2>Il Nostro Impegno Quotidiano</h2>
+            <p>Lavorare nel settore primario significa rispettare la terra. La nostra strategia guarda alle generazioni future, puntando su una crescita sostenibile per l'ambiente e per le persone.</p>
+        </section>
+
+        <div class="pillars">
+            <div class="card-sost">
+                <h3>Ambiente</h3>
+                <p>Uso di energia da fonti rinnovabili (biogas e fotovoltaico) per ridurre l'impatto di CO2 in tutta la filiera.</p>
+            </div>
+            <div class="card-sost">
+                <h3>Benessere Animale</h3>
+                <p>Certificazioni di eccellenza e gestione responsabile degli allevamenti per garantire standard elevati.</p>
+            </div>
+            <div class="card-sost">
+                <h3>Comunità</h3>
+                <p>Investiamo nel territorio e nella sicurezza dei nostri collaboratori, creando un ambiente inclusivo.</p>
+            </div>
+        </div>
+
+        <section style="text-align: center; margin-top: 60px; padding: 40px; background: #fff; border: 1px solid #eee;">
+            <h2>Bilancio di Sostenibilità</h2>
+            <p>Scarica il report ufficiale 2024 per approfondire i nostri dati certificati.</p>
+            
+            <!-- Tasto di download con percorso relativo corretto -->
+            <a href="pdf/Ama_report_sost_2024_sin.pdf" class="btn-link" download="Ama_report_sost_2024_sin.pdf">
+                SCARICA IL PDF
+            </a>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 - Progetto Sostenibilità Aziendale Negri Francesco</p>
+    </footer>
+
+</body>
+</html>
